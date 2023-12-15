@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">WebSite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="main">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Page 1</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="slide" 
+    class="carousel slide container">
+        <ol class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1" ></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/jaguar.png" alt="jag" class="w-100">
+            </div>
+
+            <div class="carousel-item ">
+                <img src="./images/grayford.png" alt="jag" class="w-100">
+            </div>
+
+            <div class="carousel-item ">
+                <img src="./images/brownford.png" alt="jag" class="w-100">
+            </div>
+        </div>
+
+        <a href="#slide" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <a href="#slide" class="carousel-control-prev" data-slide="next">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+    </div>
+
+
+    <div class="container">
+    <form action="" class="form" style="width: 50%; margin: 15px auto">
+    
+        <h2 class="text-danger">LogIn</h2>
+        <div class="for-group">
+            <label for="name">UserName</label>
+            <input type="text" id="name" placeholder="name"
+            class="form-control"/>
+        </div>
+        <div class="for-group">
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password"
+            class="form-control" />
+        </div>
+        <div class="for-group">
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="email"
+            class="form-control"/>
+        </div>
+
+        <button type="submit" class="btn btn-outline-primary btn-block m-2">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <div class="footer bg-dark">
+        <p class="footer_title text-light container">&Lt;
+            &copy;
+            Mona Galal
+            &Gt; 
+        </p>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+</body>
+</html>
